@@ -6,9 +6,9 @@ toolchain go1.22.1
 
 require (
 	github.com/google/go-cmp v0.6.0
-	github.com/openshift/api v0.0.0-20240323003854-2252c7adfb79
-	github.com/openshift/build-machinery-go v0.0.0-20220913142420-e25cf57ea46d
-	github.com/openshift/client-go v0.0.0-20231218140158-47f6d749b9d9
+	github.com/openshift/api v0.0.0-20240405095747-3e50337fcaea
+	github.com/openshift/build-machinery-go v0.0.0-20231128094528-1e9b1b0595c8
+	github.com/openshift/client-go v0.0.0-20240405120947-c67c8325cdd8
 	github.com/openshift/library-go v0.0.0-20231218143352-99cedb2a141c
 	github.com/stretchr/testify v1.8.4
 	k8s.io/api v0.30.0-rc.0
@@ -23,7 +23,6 @@ require (
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -78,7 +77,7 @@ require (
 )
 
 replace (
-	github.com/openshift/api => github.com/dinhxuanvu/openshift-api v0.0.0-20240328091556-28354bd30994
-	github.com/openshift/client-go => github.com/dinhxuanvu/client-go v0.0.0-20240328085731-6461e5d5e6b1
-	github.com/openshift/library-go => github.com/dinhxuanvu/library-go v0.0.0-20240328090327-83562eca6545
+	github.com/openshift/api => github.com/dinhxuanvu/openshift-api v0.0.0-20240402064831-ef66856341d1
+	github.com/openshift/client-go => github.com/soltysh/client-go v0.0.0-20240405120137-b182b8fcff58
+	github.com/openshift/library-go => github.com/soltysh/library-go v0.0.0-20240409091359-6562564ed5d3
 )
